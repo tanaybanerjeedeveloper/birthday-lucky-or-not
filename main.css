@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+:root {
+  --primary-color: #1f2937;
+  --secondary-color: #6ee7b7;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  text-align: center;
+}
+
+#date-of-birth {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+#lucky-number {
+  padding: 1rem;
+}
+
+.btn {
+  width: 30%;
+  margin: 2rem auto;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 0.2rem;
+}
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
